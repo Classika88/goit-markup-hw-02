@@ -1,2 +1,1 @@
-# goithomework1
-Домашнє завдання на курсі
+# goit-markup-hw-01
