@@ -1,0 +1,109 @@
+/* колір лого #000000 */
+/* колір підзаголовків #212121; */
+/* колір абзаців #757575 */ 
+/* білий #FFFFFF  */
+/* акцент #2196F3 */
+body {
+    font-family:
+    }
+.list {
+    list-style: none;
+}
+:root {
+    --logo-text-color: #000000;
+    --accent-color: #2196f3; 
+    --subtitle-color: #212121;
+    --text-color: #757575;
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --main-title-color: #ffffff;
+}
+.title {
+    color: var(--subtitle-color);
+}
+.text {
+    color: var(--text-color);
+}
+/*Header style*/
+.logo {
+    color: var(--logo-text-color);
+}
+.accent {
+    color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+.site-nav .link {
+    color: var(--subtitle-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.auth-nav .link {
+        color: var(--text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+/*Hero*/
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--main-title-color);
+}
+.button {
+    color: var(--main-title-color);
+    background-color: var(--accent-color);
+        }
+/*Section benefits*/
+.benefits .title {
+   
+}
+.benefits .text {
+  
+}
+/*Examples*/
+.examples .title {
+    
+}
+/*Team section*/
+.team .title {
+ 
+}
+.team .text {
+    
+}
+
+/* PORTFOLIO PAGE */
+
+/*Filters*/
+.portfolio .button {
+    color: var(--subtitle-color);
+    background-color: #F5F4FA;
+        }
+.portfolio .button:hover,
+.portfolio .button:active {
+    color: var(--main-title-color);
+    background-color: var(--accent-color);
+        }
+
+/*Footer*/
+.footer {
+    background-color: #2F303A;
+}
+.adress {
+    font-style: normal;
+    color: var(--main-title-color);
+}
+.adress .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress .link:hover,
+.adress .link:focus {
+    color: var(--accent-color);
+}
