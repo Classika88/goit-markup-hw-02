@@ -93,17 +93,15 @@ body {
     opacity: 0;
 }
 .benefits .title {
-    font-weight: 700;
     text-transform: uppercase;
 }
 .benefits .text {
-   line-height: 1.71px;
+   line-height: 1.71;
 
 }
 /*Examples*/
 .examples .title,
 .team .title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -140,7 +138,6 @@ body {
     cursor: pointer;
         }
 .portfolio .title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -152,6 +149,13 @@ body {
 /*Footer*/
 .footer {
     background-color: #2F303A;
+}
+.footer .logo {
+    color: var(--main-title-color);
+}
+.footer .logo:hover,
+.footer .logo:focus {
+    color: var(--accent-color);
 }
 .adress {
     font-style: normal;
