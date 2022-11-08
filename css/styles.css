@@ -107,7 +107,10 @@ body {
     text-align: center;
 }
 /*Team section*/
- 
+.team {
+    background-color: #F5F4FA;
+;
+}
 .name {
     color: var(--subtitle-color);
     font-weight: 500;
